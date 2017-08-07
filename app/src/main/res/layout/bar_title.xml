@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+
+    >
+    <Button
+        android:id="@+id/bar_title"
+        android:textSize="18sp"
+        android:text="@string/app_name"
+        android:textColor="@color/black"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/bar_back"
+        android:background="#ff7300"
+        />
+
+    <Button
+        android:id="@+id/bar_back"
+        android:text="返回"
+        android:textSize="16sp"
+        android:textColor="@color/weite"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:background="@color/green"
+        />
+    <Button
+        android:id="@+id/more"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="更多"
+        android:textSize="16sp"
+        android:layout_toRightOf="@+id/bar_title"
+        android:background="@color/green"
+        android:textColor="@color/weite"
+         />
+
+</RelativeLayout>
